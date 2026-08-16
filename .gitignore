@@ -1,0 +1,45 @@
+# ---------------------------------------------------------------------------
+# Keep the repository to source code and small figures/data only.
+# Large binaries, build artifacts, and bundled third-party libraries stay out.
+# ---------------------------------------------------------------------------
+
+# Archived / reference material (bundled blitz++ library, compiled C++ demo,
+# original simple-dmrg copy, tarballs). Kept locally, not tracked on GitHub.
+archive/
+
+# Compiled objects, binaries, archives
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.exe
+*.out
+a.out
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+# Large / raw data — commit only small summary data and figures on purpose.
+# (data/*.dat and figures/*.png are small and intentionally tracked.)
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.dat.gz
