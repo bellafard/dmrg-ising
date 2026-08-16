@@ -14,7 +14,7 @@ diagonalization.
 Spin-1/2 transverse-field Ising chain,
 
 $$
-H = J \sum_{\langle i,j\rangle} S^{z}_i S^{z}_j \;+\; h \sum_i S^{x}_i ,
+H = J \sum_{\langle i,j\rangle} S^{z}_i S^{z}_j  +  h \sum_i S^{x}_i ,
 $$
 
 with Ising coupling $J$ and transverse field $h$. Varying the ratio $h/J$ drives
