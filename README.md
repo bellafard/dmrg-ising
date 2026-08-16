@@ -1,7 +1,7 @@
 # DMRG for the Transverse-Field Ising Chain
 
 A compact, readable implementation of the **density-matrix renormalization
-group (DMRG)** applied to the one-dimensional spin-$\tfrac12$ **transverse-field
+group (DMRG)** applied to the one-dimensional spin-$\frac12$ **transverse-field
 Ising model**. DMRG is the workhorse method for ground states of 1D quantum
 lattice systems: it grows the chain one site at a time and, at each step, keeps
 only the few most important states of the reduced density matrix, capturing the
@@ -11,7 +11,7 @@ diagonalization.
 
 ## Model
 
-Spin-$\tfrac12$ transverse-field Ising chain,
+Spin-$\frac12$ transverse-field Ising chain,
 
 $$
 H = J \sum_{\langle i,j\rangle} S^{z}_i S^{z}_j \;+\; h \sum_i S^{x}_i ,
